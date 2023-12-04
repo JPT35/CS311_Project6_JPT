@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content Grid */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: black;
+}
+
+.content-box {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.sub-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: space-between; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #800020;
+    box-sizing: border-box;
+    
+}
+
+.sub-container2 {
+    background-color: #800020;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}  
+
+.sub-container3 {
+    background-color: #800020;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+
+/* Button styling */
+.button-link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: grey; 
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.button-link2 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: grey; 
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 2px solid black;
+}
+.button-link2:hover {
+    background-color: grey; 
+    text-decoration: none; 
+    border-color: black;
+}
+
+.button-link:hover {
+    background-color: grey; 
+    text-decoration: none; 
+    border-color: black;
+}
+
+.sub-container .button-link {
+    display: block; 
+    margin: 10px auto; 
+    
+}
+
+.sub-container2 .button-link {
+    display: block; 
+    margin: 10px auto; 
+    
+
+}
+
+.sub-container3 .button-link .button-link2 {
+    display: block; 
+    margin: 10px auto; 
+    
+
+}
+
+
+
+
+
+
+
+
+/* Input Assets styling */
+.AddAssets-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.AddAssets-container input {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.output-box-assets{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Input Liabilities styling */
+.AddLiabilities-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.AddLiabilities-container input {
+    display: block;
+    margin-bottom: 5px;
+    color: black
+    
+}
+
+.output-box-liabilites{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+/* Input investment styling*/
+
+.AddInvestments-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.AddInvestments-container input {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.output-box-investments{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Long-term Liabilities Styling*/
+.AddLongTerm-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.AddLongTerm-container input {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.output-box-longterm{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Intangibles Styling */
+.AddIntangibles-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.AddIntagibles-container input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.output-box-intagibles{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Position Container Styling*/
+.Position-container {
+    margin-top: auto; 
+    color: black;
+    width: 100%; 
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+.output-box-position{
+    display: block;
+    margin-bottom: 5px;
+}

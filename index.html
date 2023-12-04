@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 6</title>
+    <link href="../css/stylesheet.css" rel="stylesheet">
+</head>   
+
+<header>
+    <h1>JPT Financials - Balance Sheet Calculator</h1>
+</header>
+
+
+
+
+
+
+
+
+
+
+<div class="main-content">
+    <div class="content-box">
+        <h2>Assets</h2>
+
+        <div class="sub-container">
+            <h4>Current Assets</h4>
+            <button id="AddAssets" class="button-link">Add Current Assets</button>
+
+            <div class="AddAssets-container">
+                <h4>Cash</h4>
+                <input type="text" class="assets-input" placeholder="">
+                <h4>Inventory</h4>
+                <input type="text" class="assets-input" placeholder="">
+                <h4>Supplies</h4>
+                <input type="text" class="assets-input" placeholder="">
+                <h4>Temporary Investments</h4>
+                <input type="text" class="assets-input" placeholder="">
+                <h3>Total Current Assets</h3>
+                <div id="assetsOutput" class="output-box-assets"></div>
+            </div>
+
+        </div>
+
+        <div class="sub-container2">
+            <h4>Investment Property and Equipment</h4>
+            <button id="AddInvestments" class="button-link">Add Investment Property and Equipment</button>
+
+            <div class="AddInvestments-container">
+                <h4>Land</h4>
+                <input type="text" class="inv-input" placeholder="">
+                <h4>Building and Improvements</h4>
+                <input type="text" class="inv-input" placeholder="">
+                <h4>Equipment</h4>
+                <input type="text" class="inv-input" placeholder="">
+                <h4>Temporary Investments</h4>
+                <input type="text" class="inv-input" placeholder="">
+                <h3>Total Investment Property and Equipment</h3>
+                <div id="InvOutput" class="output-box-investment"></div>
+            </div>
+
+        </div>
+
+        <div class="sub-container3">
+            <h4>Intagibles</h4>
+            <button id="AddIntangibles" class="button-link">Add Intagibles</button>
+
+            <div class="AddIntangibles-container">
+                <h4>Trade Names</h4>
+                <input type="text" class="int-input" placeholder="">
+                <h4>Goodwill</h4>
+                <input type="text" class="int-input" placeholder="">
+                <h3>Total Intagibles</h3>
+                <div id="IntOutput" class="output-box-intagibles"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="content-box">
+        <h2>Liabilities</h2>
+
+        <div class="sub-container">
+            <h4>Current Liabilities</h4>
+            <button id="AddLiabilities" class="button-link">Add Current Liabilites</button>
+
+            <div class="AddLiabilities-container">
+                <h4>Accounts Payable</h4>
+                <input type="text" class="liability-input" placeholder="">
+                <h4>Notes Payable</h4>
+                <input type="text" class="liability-input" placeholder="">
+                <h4>Interest Payable</h4>
+                <input type="text" class="liability-input" placeholder="">
+                <h4>Wages Payable</h4>
+                <input type="text" class="liability-input" placeholder="">
+                <h4>Accured Expenses</h4>
+                <input type="text" class="liability-input" placeholder="">
+                <h3>Total Current Liabilities</h3>
+                <div id="totalLiabilities" class="output-box-liabilities"></div>
+            </div>
+
+        </div>
+
+        <div class="sub-container2">
+            <h4>Long Term Liabilities</h4>
+            <button id="AddLongTerm" class="button-link">Add Long Term Liabilites</button>
+
+            <div class="AddLongTerm-container">
+                <h4>Notes Payable</h4>
+                <input type="text" class="longterm-input" placeholder="">
+                <h4>Bonds Payable</h4>
+                <input type="text" class="longterm-input" placeholder="">
+                <h3>Total Long-Term Liabilities</h3>
+                <div id="longtermLiabilities" class="output-box-longterm"></div>
+            </div>
+        </div>
+
+        <div class="sub-container3">
+            <h2>Total Position</h2>
+            <button id="CalculatePosition" class="button-link2">Calculate Position</button>
+
+            <div class="Position-container">
+                <h3>Total Assets: </h3>
+                <div id="output-box-assets" class="output-box-assets"></div>
+                <h3>Total Liabilites: </h3>
+                <div id="output-box-total-liabilities" class="output-box-total-liabilities"></div>
+                <h3>Position: </h3>
+                <div id="positionOutput" class="output-box-position"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p>Made by John Paul Thomas 2023</p>
+</footer>
+
+
+<script src="../js/javascript.js"></script>
+
+</body>
+</html>
